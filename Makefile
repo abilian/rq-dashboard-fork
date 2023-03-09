@@ -1,7 +1,10 @@
 .PHONY: all clean release force_release
 
-all:
-	@grep -Ee '^[a-z].*:' Makefile | cut -d: -f1 | grep -vF all
+all: test
+
+
+test:
+	pytest
 
 clean:
 	rm -rf build/ dist/
