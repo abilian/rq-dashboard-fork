@@ -26,6 +26,7 @@ classifiers = [
 homepage = "https://github.com/Parallels/rq-dashboard"
 authors = ["Vincent Driessen <vincent@3rdcloud.com>"]
 readme = "README.md"
+packages = [{ include = "rq_dashboard" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
