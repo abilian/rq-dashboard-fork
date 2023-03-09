@@ -41,3 +41,7 @@ rq-dashboard = "rq_dashboard.cli:main"
 
 [tool.poetry.group.dev.dependencies]
 abilian-devtools = "^0.4.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
