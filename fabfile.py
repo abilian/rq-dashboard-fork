@@ -3,7 +3,7 @@
 import os
 import os.path
 
-from fabric.api import abort, env, hide, lcd, local, quiet, settings, task
+# from fabric.api import abort, env, hide, lcd, local, quiet, settings, task
 
 
 def _relative_to_fabfile(*path):

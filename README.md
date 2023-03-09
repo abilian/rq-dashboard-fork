@@ -14,7 +14,15 @@ Support](https://img.shields.io/pypi/pyversions/rq-dashboard.svg)](https://pypi.
 Maturity notes
 --------------
 
-The RQ dashboard is currently being developed and is in beta stage.
+This is a fork of the original, unmaintained project, in order to make it 
+work with recent versions of Flask, Click, RQ, etc.
+
+
+Below are the original notes.
+
+
+---
+
 
 Installing with Docker
 ----------------------

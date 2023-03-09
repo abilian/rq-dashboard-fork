@@ -54,7 +54,10 @@ from .version import VERSION as rq_dashboard_version
 
 
 blueprint = Blueprint(
-    "rq_dashboard", __name__, template_folder="templates", static_folder="static",
+    "rq_dashboard",
+    __name__,
+    template_folder="templates",
+    static_folder="static",
 )
 
 
